@@ -1,4 +1,5 @@
 const insert = document.getElementById('insert');
+const body = document.getElementById('main-body');
 
 window.addEventListener('keydown', (e) => {
 	console.log(e);
@@ -15,5 +16,7 @@ window.addEventListener('keydown', (e) => {
 			${e.code}
 			<small>event.code</small>
 		</div>
-	`
+    `
+    body.style.backgroundColor = 
+
 });
